@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KothamTV</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<!-- Netflix Style Intro -->
+<div class="intro">
+  <h1 class="intro-logo">KothamTV</h1>
+</div>
+
+<div class="hero">
+  <canvas id="particles"></canvas>
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1 class="logo">KothamTV</h1>
+
+    <p class="subtitle">
+      <span id="typed-text"></span>
+    </p>
+
+    <div class="button-group">
+      <button class="main-btn" id="movieBtn" onclick="showMovie()">🎬 Movies</button>
+      <button class="main-btn" id="seriesBtn" onclick="showSeries()">📺 Series</button>
+    </div>
+
+    <div id="formArea" class="form-area"></div>
+
+    <!-- Error toast -->
+    <div id="errorToast" class="error-toast"></div>
+
+    <!-- Continue Watching -->
+    <div id="continueSection" class="history-section" style="display:none;">
+      <h3 class="history-heading">⏯ Continue Watching</h3>
+      <div id="continueRow" class="history-row"></div>
+    </div>
+
+    <!-- Recently Watched -->
+    <div id="recentSection" class="history-section" style="display:none;">
+      <h3 class="history-heading">🕐 Recently Watched</h3>
+      <div id="recentRow" class="history-row"></div>
+    </div>
+
+  </div>
+</div>
+
+<script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
