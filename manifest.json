@@ -1,0 +1,14 @@
+{
+  "name": "KothamTV",
+  "short_name": "KothamTV",
+  "icons": [
+    {
+      "src": "static/kothamtv.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
