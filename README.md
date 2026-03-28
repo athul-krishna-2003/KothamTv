@@ -7,7 +7,7 @@ KothamTv is an amazing platform to enjoy various content streams. Whether you're
 You can view the live version of KothamTv [here](https://kothamtv.onrender.com/).
 
 ## Project Details
-- **Author**: athul-krishna-2003
+- **Author**: athul krishna
 - **Launch Date**: 2026-03-28
 - **Technologies Used**: React, Node.js, Render
 
